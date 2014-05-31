@@ -1,0 +1,307 @@
+.fadeIn{
+	animation-duration: 5s;
+	-webkit-animation-duration: 5s;
+}
+/*.designgames img{
+	animation-delay:0.3s;
+	-webkit-animation-delay:0.3s;
+}*/
+body {
+  min-width: 960px;
+  max-width: none !important;
+  overflow-y: scroll;
+}
+.container {
+  width: 960px;
+  max-width: none !important;
+/*  border: 1px solid red;*/
+}
+.header {
+	padding-top: 30px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{
+padding-left: 0px;
+padding-right: 0px;
+}
+.hidden{
+	visibility: hidden;
+}
+
+a {
+	border-bottom: 1px solid;
+	border-color: rgba(51,153,204,0.3);
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	border-bottom: none;
+}
+a.img {border: 0}
+.logo {
+	height: 68px;
+}
+.logo img {
+	position: relative;
+	bottom: 7px;
+}
+.logo h1 {
+	font-size: 24px;
+	position: relative;
+	left: 70px;
+	bottom: 77px;
+	color: #000;
+	font-weight: 600;
+}
+.logo span {
+	font-size: 14px;
+	font-weight: 400;
+	position: relative;
+	bottom: 7px;
+}
+/* Меню */
+.fixed_menu {
+	width: 100%;
+	height: 38px;
+	background: #394a58;
+	position: fixed;
+	z-index: 1000;
+	top: 480px;
+	padding-top: 9px;
+}
+
+
+
+.pager {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.pager li>a {
+	padding: 0;
+	background-color: transparent;
+	border-radius: 0;
+	border: 0;
+	border-bottom: 1px solid;
+	border-color: rgba(51,153,204,0.3);
+	height: 20px;
+}
+.pager li>a:hover,.pager li>a:focus{
+	text-decoration:none;
+	background-color: transparent;
+}
+
+
+.project_menu .nav-pills>li>a{
+/*	margin-top: 33px;*/
+	border-bottom: 1px solid;
+	border-color: rgba(51,153,204,0.3);
+	height: 20px;
+}
+.project_menu .nav-pills>li>a:hover{
+	border-bottom: transparent;
+}
+.project_menu .nav-pills>li>a.active{
+	border-bottom: none;
+	pointer-events: none;
+	cursor: default;
+	color: #fff;
+}
+.project_menu .nav-pills>li>a.active:before, .project_menu .nav-pills>li>a.active:after{
+	content: " — ";
+	color: #fff;
+	font-weight: 700;
+}
+
+
+
+.header .nav-pills>li>a {
+	margin-top: 9px;
+	margin-right: 39px;
+	border-bottom: 1px solid;
+	border-color: rgba(51,153,204,0.3);
+	height: 20px;
+}
+.header .nav-pills>li>a:hover {
+	border-bottom: none;
+}
+.header .nav-pills>li:last-child {
+	margin-right: 0 ;
+}
+.header .nav-pills>li>a.active {
+	color: #666;
+	border-bottom: none;
+	pointer-events: none;
+	cursor: default;
+}
+.blog, .home, .work{
+	background: url(../img/menu_sprite.png) no-repeat;
+	display: inline-block;
+}
+a.active>.blog{
+	background-position: -14px -26px ;
+	width: 10px;
+	height: 10px;
+}
+a:hover>.blog{
+	background-position: -27px -26px ;
+	width: 10px;
+	height: 10px;
+}
+.blog{
+	background-position: 0 -26px ;
+	width: 10px;
+	height: 10px;
+}
+a.active>.home{
+	background-position: -13px 0;
+	width: 10px;
+	height: 10px;
+}
+a:hover>.home{
+	background-position: -26px 0;
+	width: 10px;
+	height: 10px;
+}
+.home{
+	background-position: 0 0;
+	width: 10px;
+	height: 10px;
+}
+a.active>.work{
+	background-position: -13px -13px ;
+	width: 10px;
+	height: 10px;
+}
+a:hover>.work{
+	background-position: -26px -13px ;
+	width: 10px;
+	height: 10px;
+}
+.work{
+	background-position: 0 -13px ;
+	width: 10px;
+	height: 10px;
+}
+/* Меню */
+.block img:hover + p > a {
+
+}
+.project {
+	margin-top: 22px;
+}
+.project p{
+	margin-top: 3px;
+}
+.separator {
+	border-top: 1px solid #e9e9e9;
+	margin-top: 24px;
+}
+.project a.img:hover + p > a {
+	color: #cf4242;
+	border-bottom: none;
+}
+
+.contact {
+	margin-top: 31px;
+	margin-bottom: 34px;
+}
+.contact b {
+	font-size: 18px;
+}
+.contact ul {
+	position: relative;
+	bottom: 10px;
+}
+
+.designgames img {
+	box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+.designgames .description_1{
+	margin-top: 205px;
+}
+.designgames .description_2{
+	margin-top: 282px;
+}
+.designgames .description_3{
+	margin-top: 184px;
+}
+.designgames .description_4{
+	margin-top: 343px;
+}
+.designgames .description_5{
+	margin-top: 340px;
+}
+.designgames .description_6{
+	margin-top: 1055px;
+}
+.designgames .description_7{
+	margin-top: 163px;
+}
+.designgames .description_8{
+	margin-top: 559px;
+}
+.designgames{
+	margin-top: 60px;
+}
+.designgames_top {
+	height: 480px;
+	color: #fff;
+	padding-top: 33px;
+}
+.designgames_about {
+	margin-top: 85px;
+}
+.designgames_about h1 {
+	font-size: 24px;
+	font-weight: 700;
+}
+.designgames_about .text {
+	margin-top: -24px;
+}
+.designgames_bottom {
+	height: 370px;
+	margin-top: 60px;
+	margin-bottom: 21px;
+	color: #fff;
+}
+.parallax {
+	background: url(../img/project/full/parallax_bg.jpg);
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	/*position: relative;*/
+}
+.digit {
+	font-weight: 700;
+	font-size: 55px;
+	margin-top: 73px;
+	margin-bottom: -5px;
+}
+.live {
+	font-weight: 400;
+	border: 2px solid #5cc8ff;
+	color: #66ccff;
+	background: transparent;
+	padding: 0;
+	font-size: 27px;
+	border-radius: 0;
+	text-transform: uppercase;
+	width: 620px;
+	height: 80px;
+	line-height: 80px;
+	margin-top: 24px;
+}
+.live:hover {
+	color: #fff;
+	background: #66ccff;
+	border: 2px solid #66ccff;
+}
+.live:active{
+	background: #3399cc;
+	border: 2px solid #3399cc;
+	box-shadow: none;
+	color: #fff;
+}
+a.live:focus{
+    outline : 0 !important;
+    color: #fff !important;
+}
